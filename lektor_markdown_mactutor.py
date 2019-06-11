@@ -5,14 +5,14 @@ import mistune
 import re
 
 import commands.m_link
-import commands.g_link
+import commands.gl_link
 import commands.math_inline
 import commands.text_inline
 
 # list of plugins here. to add new ones, import them and add them to this list
 plugins = [
     commands.m_link,
-    commands.g_link,
+    commands.gl_link,
     commands.math_inline,
     commands.text_inline
 ]
