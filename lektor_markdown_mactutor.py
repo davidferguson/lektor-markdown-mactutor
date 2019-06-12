@@ -6,6 +6,16 @@ import re
 
 import commands.m_link
 import commands.gl_link
+import commands.ac_link
+import commands.e_link
+import commands.translation
+import commands.reference
+import commands.ovl_text
+import commands.center_text
+import commands.sub_text
+import commands.sup_text
+import commands.color_text
+import commands.bgcolor_text
 import commands.math_inline
 import commands.text_inline
 
@@ -13,6 +23,16 @@ import commands.text_inline
 plugins = [
     commands.m_link,
     commands.gl_link,
+    commands.ac_link,
+    commands.e_link,
+    commands.translation,
+    commands.reference,
+    commands.ovl_text,
+    commands.center_text,
+    commands.sub_text,
+    commands.sup_text,
+    commands.color_text,
+    commands.bgcolor_text,
     commands.math_inline,
     commands.text_inline
 ]

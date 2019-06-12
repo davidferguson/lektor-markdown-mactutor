@@ -7,8 +7,18 @@ website.
 
 The syntax added is as below:
 
-- **m_link** - support for `[m]` biography links
-- **gl_link** - support for `[gl]` glossary links
+- **m_link** - support for `[m]MNAME[/m]` and `[m=MNAME]text[/m]` biography links
+- **gl_link** - support for `[gl=GLOSSARYFILE]text[/gl]` glossary links
+- **e_link** - support for `[e=EXTRA]text[/e]` extra links
+- **ac_link** - support for `[ac=ACADEMY]text[/ac]` academy links
+- **translation** - support for `[t=TRANSLATION]` translation links
+- **reference** - support for `[ref=REFERENCE]` reference links
+- **ovl_text** - support for `[ovl]text[/ovl]` overlined text
+- **center_text** - support for `[center]text[/center]` and `[centre]text[/centre]` centred text
+- **sub_text** - support for `[sub]text[/sub]` subscript text
+- **sup_text** - support for `[sup]text[/sup]` superscript text
+- **color_text** - support for `[color=COLOUR]text[/color]` and `[colour=COLOUR]text[/colour]` coloured text
+- **bgcolor_text** - same as **color_text** but for background colour instead
 - **math_inline** - support for inline MathJax using `$math$`
 - **text_inline** - modification of the regular expression for matching against
 text to allow for MathJax
